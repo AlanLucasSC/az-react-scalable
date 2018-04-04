@@ -1,0 +1,6 @@
+npm i --save-dev react-redux@5.0.2 redux@3.6.0
+
+//middlewares
+npm i --save-dev redux-promise@0.5.3 //tratar as promises feitas por chamadas assincronas
+npm i --save-dev redux-multi@0.1.12 //Possibilitar a utilização de mais de uma action dentro de uma action creator (não espera os dados chegarem)
+npm i --save-dev redux-thunk@2.2.0 //Possibilita que a action espere a chegada dos dados -> podendo chamar o dispatch de forma manual

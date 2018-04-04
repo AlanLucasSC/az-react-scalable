@@ -1,0 +1,126 @@
+/* ****************************************
+ * General
+ * ****************************************/
+* {
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ebebeb;
+  padding-top: 4em;
+}
+
+.form-container {
+  background: #fff;
+  padding: 3.5em;
+  width: 450px;
+  position: fixed;
+  left: 50%;
+  margin-left: -225px;
+}
+
+button {
+  padding: 1.2em;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.basic-btn {
+  background: #87bcd3;
+  color: #fff;
+}
+
+input.txt {
+  background: #fff !important;
+  padding: 1.3em 1em;
+  font-size: 1.3em;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  margin: 1.7em 0 .9em 0;
+}
+
+.columns {
+  margin-bottom: 30px;
+}
+
+p {
+  margin: 0.2em 0;
+}
+
+.error-wrapper {
+  margin-bottom: 15px;
+}
+
+.error-label {
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  background: #f57676;
+  padding: 10px;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+.loading {
+  width: 30px;
+  height: 30px;
+  border: 5px solid #ccc;
+  position: fixed;
+  left: 50%;
+  margin-left: -20px;
+  top: 50%;
+  margin-top: -20px;
+  border-radius: 50%;
+}
+
+.loading:after {
+  content: '';
+  position: absolute;
+  width: 40px;
+  height: 7px;
+  background: #ebebeb;
+  top: 7px;
+  left: -10px;
+  animation: spin 1.2s infinite;
+}
+
+.emptyGrid-label {
+  position: absolute;
+  top: 350px;
+  left: 50%;
+  width: 500px;
+  text-align: center;
+  margin-left: -250px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 26px;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 1.2em;
+  }
+
+  .form-container {
+    padding: 1.2em;
+    width: 90%;
+    margin-left: -45%;
+  }
+
+  button {
+    font-size: 1em;
+  }
+}
