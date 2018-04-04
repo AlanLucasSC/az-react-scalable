@@ -8,7 +8,7 @@ export default props => (
                 <i className="fa fa-home" aria-hidden="true"></i> <span>Home</span>
             </a>
 
-            <a href="/#/user">
+            <a href="/#/users">
                 <i className="fa fa-user" aria-hidden="true"></i> <span>Usuários</span>
             </a>
 

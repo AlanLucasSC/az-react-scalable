@@ -18,6 +18,7 @@ class Layout extends React.Component {
             <div>
                 <Header userEmail={ this.props.email } logout={ this.props.doLogout }/>
                 <Navigation />
+                { this.props.children }
             </div>
         )
     }
