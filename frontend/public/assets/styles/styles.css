@@ -335,3 +335,8 @@ p {
 .profileActionBar-link i {
   margin-right: 10px;
 }
+
+.title {
+  margin-top: 100px;
+  margin-left: 100px;
+}

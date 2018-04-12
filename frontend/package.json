@@ -37,6 +37,8 @@
     "webpack-dev-server": "^1.16.2"
   },
   "dependencies": {
+    "home": "git+https://github.com/AlanLucasSC/home.git",
+    "react-scripts": "^1.1.4",
     "rxjs": "^5.5.8"
   }
 }
